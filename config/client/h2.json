@@ -5,7 +5,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "sagasw.com",
+                        "address": "saga.com",
                         "port": 2333,
                         "users": [
                             {
@@ -22,9 +22,9 @@
                 "security": "tls",
                 "httpSettings": {
                     "host": [
-                        "sagasw.com"
+                        "saga.com"
                     ],
-                    "path": "/sagasw"
+                    "path": "/saga"
                 }
             },
             "mux": {

@@ -204,8 +204,8 @@ socks_port_config() {
 socks_user_config() {
 	echo
 	while :; do
-		read -p "$(echo -e "请输入$yellow用户名$none...(默认用户名: ${cyan}sagasw$none)"): " new_socks_username
-		[ -z "$new_socks_username" ] && new_socks_username="sagasw"
+		read -p "$(echo -e "请输入$yellow用户名$none...(默认用户名: ${cyan}saga$none)"): " new_socks_username
+		[ -z "$new_socks_username" ] && new_socks_username="saga"
 		case $new_socks_username in
 		*[/$]* | *\&*)
 			echo
@@ -228,8 +228,8 @@ socks_user_config() {
 socks_pass_config() {
 	echo
 	while :; do
-		read -p "$(echo -e "请输入$yellow密码$none...(默认密码: ${cyan}sagasw.com$none)"): " new_socks_userpass
-		[ -z "$new_socks_userpass" ] && new_socks_userpass="sagasw.com"
+		read -p "$(echo -e "请输入$yellow密码$none...(默认密码: ${cyan}saga.com$none)"): " new_socks_userpass
+		[ -z "$new_socks_userpass" ] && new_socks_userpass="saga.com"
 		case $new_socks_userpass in
 		*[/$]* | *\&*)
 			echo

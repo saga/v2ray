@@ -1,5 +1,5 @@
 #!/bin/bash
-backup="/usr/local/etc/v2ray/sagasw_v2ray_backup.conf"
+backup="/usr/local/etc/v2ray/saga_v2ray_backup.conf"
 . $backup
 if [[ $v2ray_transport -ge 13 ]]; then
 	tmp_transport=$(($v2ray_transport +6))

@@ -14,16 +14,16 @@
 		"network": "h2",
 		"httpSettings": {
 			"host": [
-				"sagasw.com" // domain
+				"saga.com" // domain
 			],
-			"path": "/sagasw" // path
+			"path": "/saga" // path
 		},
 		"security": "tls",
 		"tlsSettings": {
 			"certificates": [
 				{
-					"certificateFile": "/usr/local/etc/v2ray/sagasw/v2ray/config/sagasw.com.cer",
-					"keyFile": "/usr/local/etc/v2ray/sagasw/v2ray/config/sagasw.com.key"
+					"certificateFile": "/usr/local/etc/v2ray/saga/v2ray/config/saga.com.cer",
+					"keyFile": "/usr/local/etc/v2ray/saga/v2ray/config/saga.com.key"
 				}
 			]
 		}

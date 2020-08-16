@@ -18,6 +18,6 @@ _mkdir() {
 }
 
 _load() {
-    local _dir="/usr/local/etc/v2ray/sagasw/v2ray/src/"
+    local _dir="/usr/local/etc/v2ray/saga/v2ray/src/"
     . "${_dir}$@"
 }
