@@ -83,7 +83,7 @@ v2ray_server_config="/usr/local/etc/v2ray/config.json"
 v2ray_client_config="/usr/local/etc/v2ray/saga_v2ray_config.json"
 v2ray_pid=$(pgrep -f /usr/local/bin/v2ray)
 caddy_pid=$(pgrep -f /usr/local/bin/caddy)
-_v2ray_sh="/usr/local/sbin/v2ray"
+_v2ray_sh="/usr/local/bin/v2ray"
 v2ray_ver="$(/usr/local/bin/v2ray -version | head -n 1 | cut -d " " -f2)"
 . /usr/local/etc/v2ray/saga/v2ray/src/init.sh
 systemd=true
